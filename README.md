@@ -2,7 +2,9 @@
 
 Minimal Vue2 application, using "vite" and "vitest" for unit tests.
 
-Currently, this Vue2 application will run correctly, but the unit tests will fail with the following error:
+Currently, this Vue2 application will run correctly.
+
+However, the unit tests will fail when run with `npm run test` with the following error:
 
 ```
 SyntaxError: The requested module 'crypto' does not provide an export named 'webcrypto'
